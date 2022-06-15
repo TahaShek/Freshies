@@ -1,0 +1,10 @@
+.navbar-brand{font-family: 'Lobster';
+    font-size: 3.5rem;
+}
+.nav-link{
+    font-family: 'Lobster';
+    font-size: 1.5rem;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
