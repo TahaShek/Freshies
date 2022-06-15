@@ -1,3 +1,6 @@
+nav{
+    background-color: white;
+}
 .navbar-brand{font-family: 'Lobster';
     font-size: 3.5rem;
 }
@@ -12,7 +15,7 @@
     background: url('../assests/img\ 12-min.jpg') no-repeat 0 0;
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
 }
 .image-h1{
     font-family: 'Tiro Telugu';
@@ -27,3 +30,10 @@
     background-color: black;
 }
 .btn:hover{background-color: grey;}
+.content-h2{
+    font-family:'Tiro Telugu' ;
+    margin-top: 10rem;
+    font-weight: 700;
+}
+.content-p{font-family:'Tiro Telugu' ;
+}
