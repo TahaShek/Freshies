@@ -16,6 +16,7 @@ nav{
     background-position: center;
     background-size: cover;
     height: 100vh;
+
 }
 .image-h1{
     font-family: 'Tiro Telugu';
@@ -54,6 +55,7 @@ main{
     background-position: center;
     background-size: cover;
     height: 80vh;
+    
 }
 .choose{
     font-family:'Tiro Telugu' ;
