@@ -28,6 +28,7 @@ nav{
 .btn{
     font-family: 'Tiro Telugu';
     background-color: black;
+    /* color: white; */
 }
 .btn:hover{background-color: grey;}
 .content-h2{
@@ -36,4 +37,48 @@ nav{
     font-weight: 700;
 }
 .content-p{font-family:'Tiro Telugu' ;
+}
+.product-h3{
+    font-family:'Tiro Telugu' ;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.product-p{
+    font-family:'Tiro Telugu' ;
+    color: black;
+    font-weight: 550;
+    font-size: 1.1rem;
+}
+main{
+    background: url('../assests/file.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+.choose{
+    font-family:'Tiro Telugu' ;
+     font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+.footer:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+
+footer{
+    background-color: white;
+color: black;
+}
+.m{
+    text-decoration: none;
+    color: black;
 }
