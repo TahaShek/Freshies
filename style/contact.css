@@ -27,3 +27,33 @@ nav{
             font-weight: 700;
             color: white    ;
             font-size: 3.8rem;}
+
+  .contact-h4{
+    font-family: 'Tiro Telugu';
+    font-size: 1.5rem;
+    font-weight: 600;
+  }          
+  .contact-p{
+    font-family: 'Tiro Telugu';
+  }
+  .map{
+    background: url('../assests/pics/map.jpg') no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .footer:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+
+footer{
+    background-color: white;
+color: black;
+}
+.m{
+    text-decoration: none;
+    color: black;
+}
