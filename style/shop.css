@@ -115,6 +115,9 @@ i{
     color: #000000;
     font-weight: 700;
   }
+  #cards_landscape_wrap-2 .card-flyer .text-box p:hover{
+    text-decoration: underline;
+  }
   #cards_landscape_wrap-2 .card-flyer .text-box h6{
     margin-top: 10px;
     /* margin-bottom: 4px;  */
@@ -125,3 +128,25 @@ i{
     letter-spacing: 1px;
     color: black;
   }
+
+
+
+
+
+
+
+
+  .footer:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+
+footer{
+    background-color: white;
+color: black;
+}
+.m{
+    text-decoration: none;
+    color: black;
+}
