@@ -1,0 +1,59 @@
+nav{
+    background-color: white;
+}
+.navbar-brand{font-family: 'Lobster';
+    font-size: 2rem;
+}
+.nav-link{
+    font-family: 'Lobster';
+    font-size: 1.5rem;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.btn{
+    font-family: 'Tiro Telugu';
+    background-color: black;
+    /* color: white; */
+}
+.btn:hover{background-color: grey;}
+
+.image{
+    background: url('../assests/pics/12.jpg') no-repeat 0 0;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;}
+    .image-h1{
+        font-family: 'Tiro Telugu';
+        font-weight: 700;
+        /* color: white    ; */
+        font-size: 3.8rem;}
+
+
+
+        .content-h2{
+            font-family:'Tiro Telugu' ;
+            margin-top: 10rem;
+            font-weight: 700;
+        }
+        .content-p{font-family:'Tiro Telugu' ;
+        }
+
+        .image-2{
+            background: url('../assests/pics/a.jpg') no-repeat 0 0;
+            background-size: cover;
+            background-position: center;
+            height: 80vh;}
+
+            .footer:hover{
+                text-decoration: underline;
+                color: black;
+            }
+            footer{
+                background-color: white;
+            color: black;
+            }
+            .m{
+                text-decoration: none;
+                color: black;
+            }
