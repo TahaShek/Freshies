@@ -1,0 +1,29 @@
+nav{
+    background-color: white;
+}
+.navbar-brand{font-family: 'Lobster';
+    font-size: 2rem;
+}
+.nav-link{
+    font-family: 'Lobster';
+    font-size: 1.5rem;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.btn{
+    font-family: 'Tiro Telugu';
+    background-color: black;
+    /* color: white; */}
+    .btn:hover{background-color: grey;}
+
+    .image{
+        background: url('../assests/pics/conatct.jpg') no-repeat 0 0;
+        background-size: cover;
+        background-position: center;
+        height: 80vh;}
+        .image-h1{
+            font-family: 'Tiro Telugu';
+            font-weight: 700;
+            color: white    ;
+            font-size: 3.8rem;}
