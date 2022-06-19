@@ -18,9 +18,9 @@
       href="https://fonts.googleapis.com/css2?family=Tiro+Telugu:ital@1&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style/login.css" />
+    <link rel="stylesheet" href="./style/sign-in.css" />
 
-    <title>LOGIN</title>
+    <title>sign</title>
   </head>
 
   <body>
@@ -31,29 +31,53 @@
             <div class="row justify-content-center my-auto">
               <div class="col-md-8 col-10 my-5">
                 <h3 class="mb-5 text-center heading">We are Freshies</h3>
-                <h6 class="msg-info">Please login to your account</h6>
+               <h6 class="msg-info">Please login to your account</h6>
+                <div class="form-group">
+                  <label class="form-control-label text-muted">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    
+                    class="form-control"
+                  />
+                </div>
                 <div class="form-group">
                   <label class="form-control-label text-muted">Username</label>
                   <input
-                    type="text"
-                    id="email"
+                    type="email"
+                    id="eamil"
                     name="email"
                    
                     class="form-control"
                   />
                 </div>
+                
                 <div class="form-group">
-                  <label class="form-control-label text-muted">Password</label>
-                  <input
-                    type="password"
-                    id="psw"
-                    name="psw"
-                   
-                    class="form-control"
-                  />
-                </div>
+                    <label class="form-control-label text-muted">Password</label>
+                    <input
+                      type="password"
+                      id="password"
+                      name="password"
+                      
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label class="form-control-label text-muted">Confirm Password</label>
+                    <input
+                      type="password"
+            
+                      id="psw"
+                      name="psw"
+                     
+                      class="form-control"
+                    />
+                  </div>
+                  
+
                 <div class="row justify-content-center my-3 px-3">
-                  <button class="btn-block btn-color">Login to Freshies</button>
+                  <button class="btn-block btn-color">Sign Up to Freshies</button>
                 </div>
                 <div class="row justify-content-center">
                   <a href="#"
@@ -61,12 +85,13 @@
                   >
                 </div>
               </div>
+              
             </div>
             <div class="bottom text-center">
               <p href="#" class="sm-text mx-auto mb-3">
-                Don't have an account? a <button class="mx-2 btn btn-white ml-2">
-                  Create new
-                </button>
+                Already Have an Account ? <a href="./login.html"> <button class="mx-2 btn btn-white ml-2">
+                 Log In
+                </button></a>
               </p>
             </div>
           </div>
