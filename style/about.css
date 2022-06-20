@@ -57,3 +57,10 @@ nav{
                 text-decoration: none;
                 color: black;
             }
+
+            @media screen and (max-width: 768px){
+                .content{
+                    margin-top: 1.5rem !important ;
+                    text-align: center;
+                }
+            }

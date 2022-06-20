@@ -84,3 +84,13 @@ color: black;
     text-decoration: none;
     color: black;
 }
+
+
+
+
+@media screen and (max-width: 768px){
+    .content-h2{
+        margin-top: 1.5rem !important;
+        text-align: center !important ;
+    }
+}
