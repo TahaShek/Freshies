@@ -2,6 +2,12 @@
     font-family: 'Lobster';
     font-size: 3rem;
 }
+.col-md-2{
+    background-color: #ff7675;
+  
+    border-bottom-left-radius: 4.8rem;
+    border-top-right-radius: 3.8rem;
+}
 .nav-link{
     font-family: 'Teru Telugu';
     color: black;
@@ -11,7 +17,7 @@ nav{
     /* border-right: 1px solid; */
 }
 .nav-link:hover{
-    background-color: #ff7675;
+    background-color: #6c5ce7;
     border-radius: 50px;
     color: black;
 }
@@ -27,9 +33,9 @@ nav{
   
   .cardBox .card {
     position: relative;
-    background: var(--white);
+
     padding: 30px;
-    border-radius: 20px;
+    border-radius:  0.8rem 5.8rem 4.8rem 1.8rem;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
@@ -40,26 +46,29 @@ nav{
     position: relative;
     font-weight: 500;
     font-size: 2.5rem;
-    color: var(--blue);
+
   }
   
   .cardBox .card .cardName {
-    color: var(--black2);
+ 
     font-size: 1.1rem;
     margin-top: 5px;
   }
   
   .cardBox .card .iconBx {
     font-size: 3.5rem;
-    color: var(--black2);
+   
   }
   
-  .cardBox .card:hover {
-    background: var(--blue);
+
+  .my:hover{
+    background-color: #6c5ce7;
+    color: white;
   }
-  .cardBox .card:hover .numbers,
-  .cardBox .card:hover .cardName,
-  .cardBox .card:hover .iconBx {
-    color: var(--white);
+
+  .image{
+    background: url('../assests/graph.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
   }
-  
