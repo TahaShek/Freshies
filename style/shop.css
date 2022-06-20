@@ -128,8 +128,11 @@ i{
     letter-spacing: 1px;
     color: black;
   }
-
-
+.text-container{
+  font-family: 'Teru Telugu';
+}
+h6{  font-family: 'Teru Telugu';
+}
 
 
 
