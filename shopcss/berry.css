@@ -18,7 +18,7 @@ nav{
 }
 .btn:hover{background-color: grey;}
 .image{
-    background: url('../assests/jar.jpg') no-repeat 0 0;
+    background: url('../assests/jar-min-min.jpg') no-repeat 0 0;
     background-size: cover;
     background-position: center;
     height: 80vh;
