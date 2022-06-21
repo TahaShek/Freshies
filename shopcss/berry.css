@@ -1,0 +1,64 @@
+nav{
+    background-color: white;
+}
+.navbar-brand{font-family: 'Lobster';
+    font-size: 2rem;
+}
+.nav-link{
+    font-family: 'Lobster';
+    font-size: 1.5rem;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.btn{
+    font-family: 'Tiro Telugu';
+    background-color: black;
+    /* color: white; */
+}
+.btn:hover{background-color: grey;}
+.image{
+    background: url('../assests/jar.jpg') no-repeat 0 0;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    /* width: 100vw; */
+}
+.image-h1{
+    font-family: 'Tiro Telugu';
+    font-weight: 700;
+    font-size: 3.8rem;
+}
+.catagories-h1{
+    font-family: 'Tiro Telugu';
+    font-weight: 800;
+    text-transform: uppercase;
+}
+i{
+    font-size: 1.5rem;}
+
+
+    .footer:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    
+    
+    footer{
+        background-color: white;
+    color: black;
+    }
+    .m{
+        text-decoration: none;
+        color: black;
+    }
+    h3{
+        font-family: 'Tiro Telugu';
+    }
+    p a{
+        text-decoration: none;
+        color: grey;
+    }
+    p a:hover{
+        color: black;
+    }
