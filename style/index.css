@@ -12,7 +12,7 @@ nav{
     text-decoration: underline;
 }
 .hero{
-    background: url('../assests/img\ 12-min.jpg') no-repeat 0 0;
+    background: url('../assests/mainImg') no-repeat 0 0;
     background-position: center;
     background-size: cover;
     height: 80vh;
